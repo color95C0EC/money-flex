@@ -1,5 +1,5 @@
 export default function Page() {
   return (
-    <div>a</div>
+    <div>登録画面</div>
   );
 }

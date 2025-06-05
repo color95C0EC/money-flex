@@ -1,5 +1,5 @@
 export default function Page() {
   return (
-    <div>a</div>
+    <div>ログイン画面</div>
   );
 }
