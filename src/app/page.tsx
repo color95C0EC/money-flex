@@ -1,5 +1,9 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <div>a</div>
+    <div>
+      <Link href="/resister">登録</Link>
+    </div>
   );
 }
