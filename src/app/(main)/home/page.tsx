@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <main>
       <Header></Header>
-      <div>登録画面</div>
+      <div>ホーム画面</div>
     </main>
   );
 }
