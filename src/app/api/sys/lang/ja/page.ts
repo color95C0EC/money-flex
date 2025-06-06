@@ -1,18 +1,19 @@
 import { NextResponse } from "next/server";
 
 export async function GET() {
-  return NextResponse.json({
-    "info.assets": "使用素材など",
-    "info.assets.images": "画像系",
-    "info.assets.fonts": "フォント",
+    const data = {
+        "info.assets": "使用素材など",
+        "info.assets.images": "画像系",
+        "info.assets.fonts": "フォント",
 
-    "moneyTracker.category.medical": "医療費",
-    "moneyTracker.category": "費目",
+        "moneyTracker.category.medical": "医療費",
+        "moneyTracker.category": "費目",
 
-    "moneyTracker.day.0": "日",
-    "moneyTracker.day.1": "月",
-    "moneyTracker.day.2": "火",
+        "moneyTracker.day.0": "日",
+        "moneyTracker.day.1": "月",
+        "moneyTracker.day.2": "火",
 
-    "ui.cancel": "キャンセル"
-  });
+        "ui.cancel": "キャンセル"
+    };
+    return NextResponse.json(data);
 }

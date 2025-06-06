@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 
 export async function GET() {
-  return NextResponse.json({
-    "ui.cancel": "Cancel"
-  });
+    const data = {
+        "ui.cancel": "Cancel"
+    };
+    return NextResponse.json(data);
 }
