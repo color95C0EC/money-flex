@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <main>
-      <div>登録画面</div>
+      <div>記録一覧</div>
     </main>
   );
 }
