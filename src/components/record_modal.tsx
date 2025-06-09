@@ -1,6 +1,6 @@
-export default RegisterModal;
+export default RecordModal;
 
-function RegisterModal() {
+function RecordModal() {
   return (
     <div>記録用のモーダル</div>
   );
